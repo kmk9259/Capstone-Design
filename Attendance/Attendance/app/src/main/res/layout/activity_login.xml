@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary2"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            android:background="@color/colorPrimary5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:src="@drawable/ssstudent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:fontStyle="normal"
+                android:text="상명대학교"
+                android:textColor="@color/colorPrimary1"
+                android:textSize="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontStyle="normal"
+                android:text="로그인을 해주세요"
+                android:textColor="@color/colorPrimary1"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/idText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimary5"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:hint="학번"
+                android:fontStyle="normal"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary1"
+                android:textColorHint="@color/colorPrimary1" />
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary5"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:hint="PASSWORD"
+                android:fontStyle="normal"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary1"
+                android:textColorHint="@color/colorPrimary1" />
+
+            <RadioGroup
+                android:id="@+id/jobGroup"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/loginprofessor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Professor" />
+
+                <RadioButton
+                    android:id="@+id/loginstudent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="Student" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/colorPrimary5"
+                    android:fontStyle="normal"
+                    android:text="LOGIN"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/registerButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:background="@color/colorPrimary5"
+                    android:fontStyle="normal"
+                    android:text="회원가입"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

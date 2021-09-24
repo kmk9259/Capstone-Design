@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary2"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="JOIN"
+                android:textColor="@color/colorPrimary1"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/idText"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary5"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:fontStyle="normal"
+                android:hint="학번"
+                android:padding="10dp"
+                android:textColorHint="@color/colorPrimary1" />
+
+            <Button
+                android:id="@+id/schoolsCheck"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/colorPrimary5"
+                android:fontStyle="normal"
+                android:text="학교인증"
+                android:textColor="@color/colorPrimary1"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary5"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:fontStyle="normal"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="@color/colorPrimary1" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/passwordCheck"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary5"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:fontStyle="normal"
+                android:hint="PASSWORD CHECK"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="@color/colorPrimary1" />
+
+            <ImageView
+                android:id="@+id/setImage"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="50dp"
+                android:adjustViewBounds="true"
+                android:baseline="100dp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/major"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary5"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:fontStyle="normal"
+                android:hint="학과"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColorHint="@color/colorPrimary1" />
+
+            <EditText
+                android:id="@+id/u_name"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary5"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:fontStyle="normal"
+                android:hint="이름"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColorHint="@color/colorPrimary1" />
+
+            <RadioGroup
+                android:id="@+id/jobGroup"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/professor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Professor" />
+
+                <RadioButton
+                    android:id="@+id/student"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="Student" />
+
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/idCheckButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="60dp"
+                    android:background="@color/colorPrimary5"
+                    android:fontStyle="normal"
+                    android:text="중복체크"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/registerButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="210dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorPrimary5"
+                    android:fontStyle="normal"
+                    android:text="가입하기"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

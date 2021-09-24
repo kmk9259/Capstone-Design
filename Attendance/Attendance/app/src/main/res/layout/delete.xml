@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/colorPrimary3"
+        android:text="강의삭제"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deleteTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="강의제목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deleteProfessor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="교수님"
+                android:textColor="@color/colorPrimary3"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deleteTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="시간"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/deleteRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="강의실"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

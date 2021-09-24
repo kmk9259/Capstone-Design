@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="year">
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+    </string-array>
+
+    <string-array name="term">
+        <item>1학기</item>
+        <item>2학기</item>
+    </string-array>
+
+    <string-array name="area1">
+        <item>교양선택</item>
+        <item>교양필수</item>
+        <item>교직강좌</item>
+        <item>일반선택</item>
+    </string-array>
+
+    <string-array name="area2">
+        <item>글로벌인문학부대학</item>
+        <item>디자인대학</item>
+        <item>예술대학</item>
+        <item>융합기술대학</item>
+        <item>공과대학</item>
+
+    </string-array>
+
+    <string-array name="choice">
+        <item>정보와기술의이해</item>
+        <item>예술과문화의이해</item>
+    </string-array>
+
+    <string-array name="need">
+        <item>교양과인성(스마트정보통신공학과)</item>
+        <item>교양과인성(디자인학부)</item>
+
+    </string-array>
+
+    <string-array name="teaching">
+        <item>교직강좌</item>
+    </string-array>
+
+    <string-array name="general">
+        <item>일반선택</item>
+    </string-array>
+
+    <string-array name="engineer">
+        <item>전자공학과</item>
+        <item>소프트웨어학과</item>
+        <item>컴퓨터공학과</item>
+        <item>스마트정보통신공학과</item>
+        <item>경영공학과</item>
+        <item>그린화학공학과</item>
+        <item>의생명공학과</item>
+        <item>환경공학과</item>
+        <item>건설시스템공학과</item>
+        <item>정보보안공학과</item>
+        <item>정보보호공학과</item>
+        <item>시스템반도체공학과</item>
+        <item>휴먼지능로봇공학과</item>
+        <item>3D프린팅곤텐츠연계전공</item>
+        <item>빅데이터연계전공</item>
+        <item>스마트웹앱연계전공</item>
+        <item>스마트팜연계전공</item>
+        <item>스마트헬스케어연계전공</item>
+        <item>산업공학과</item>
+        <item>산업경영학과</item>
+
+    </string-array>
+
+    <string-array name="human">
+        <item>일본어문학과</item>
+        <item>중국어문학과</item>
+        <item>프랑스어문학과</item>
+        <item>독일어문학과</item>
+        <item>러시아어문학과</item>
+        <item>한국어문학과</item>
+    </string-array>
+
+    <string-array name="disign">
+        <item>시각디자인학과</item>
+        <item>패션디자인학과</item>
+        <item>실내디자인학과</item>
+        <item>세라믹디자인학과</item>
+        <item>텍스타일디자인학과</item>
+
+    </string-array>
+
+    <string-array name="art">
+        <item>연극학과</item>
+        <item>문화예술경영학과</item>
+        <item>사진영상미디어학과</item>
+        <item>무대미술학과</item>
+    </string-array>
+
+    <string-array name="mix">
+        <item>글로벌금융경영학과</item>
+        <item>보험경영학과</item>
+        <item>금융경영학과</item>
+        <item>식물식품공학과</item>
+        <item>환경조경학과</item>
+        <item>간호학과</item>
+        <item>스포츠융합학부</item>
+    </string-array>
+
+    <string-array name="date_year">
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+    </string-array>
+
+    <string-array name="date_month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="date_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+
+
+</resources>

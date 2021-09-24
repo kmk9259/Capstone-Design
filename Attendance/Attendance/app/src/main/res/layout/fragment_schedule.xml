@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/courseButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary3"
+            android:fontStyle="normal"
+            android:text="강의 추가"
+            android:textColor="@color/colorPrimary5"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/scheduleDelete"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary3"
+            android:fontStyle="normal"
+            android:text="강의삭제"
+            android:textColor="@color/colorPrimary5"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/scheduleButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary3"
+            android:fontStyle="normal"
+            android:text="시간표"
+            android:textColor="@color/colorPrimary5"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/blank">
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

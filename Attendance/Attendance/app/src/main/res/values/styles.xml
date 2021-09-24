@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/ssstudent</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AttendActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Attendance Status"
+            android:textColor="@color/colorPrimary1"
+            android:textSize="30dp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="10dp">
+
+        <Spinner
+            android:id="@+id/yearSpinner"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"></Spinner>
+
+        <Spinner
+            android:id="@+id/monthSpinner"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"></Spinner>
+
+        <Spinner
+            android:id="@+id/daySpinner"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"></Spinner>
+
+        <Button
+            android:id="@+id/bring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="출결확인" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ListView
+            android:id="@+id/attendListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/colorPrimary4"
+            android:dividerHeight="10dp"
+            android:padding="5dp">
+
+
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

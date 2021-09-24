@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary4"
+
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary5"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/fontview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MAIN"
+            android:textColor="@color/colorPrimary1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/check"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="250dp"
+            android:background="@color/colorPrimary5"
+            android:text="  출석체크"
+            android:textColor="@color/colorPrimary2"
+            android:textSize="25dp"
+            android:fontStyle="normal" />
+
+        <ImageButton
+            android:id="@+id/schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/schedule"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="250dp"
+            android:background="@color/colorPrimary5"
+            android:text="    시간표"
+            android:textColor="@color/colorPrimary2"
+            android:textSize="25dp"
+            android:fontStyle="normal" />
+
+        <ImageButton
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="350dp"
+            app:srcCompat="@drawable/state"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="500dp"
+            android:background="@color/colorPrimary5"
+            android:text="  출석현황"
+            android:textColor="@color/colorPrimary2"
+            android:textSize="25dp"
+            android:fontStyle="normal"/>
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="350dp"
+            app:srcCompat="@drawable/my"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="500dp"
+            android:background="@color/colorPrimary5"
+            android:text="   My 정보"
+            android:textColor="@color/colorPrimary2"
+            android:textSize="25dp"
+            android:fontStyle="normal" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary4"
+    android:weightSum="10"
+    tools:context=".proMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary5"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MAIN"
+            android:textColor="@color/colorPrimary1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimary4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:src="@drawable/ssstudent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontStyle="normal"
+            android:text="상명대학교"
+            android:textColor="@color/colorPrimary1"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/prou_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary1"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/prou_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary1"
+            android:padding="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/promajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary1"
+            android:padding="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/projob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary1"
+            android:padding="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/proname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/colorPrimary1"
+            android:padding="10dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary5"
+        android:gravity="center">
+        <Button
+            android:id="@+id/promanage"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary4"
+            android:text="출석 현황"
+            android:textColor="@color/colorPrimary1"
+            android:textSize="20dp"
+            android:fontStyle="normal" />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NfcActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Check Attendance"
+            android:textColor="@color/colorPrimary1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:src="@drawable/ssstudent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontStyle="normal"
+            android:text="NFC TAG를 찍어주세요!"
+            android:textColor="@color/colorPrimary1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontStyle="normal"
+            android:text="※화면을 벗어나면 출석이 초기화 됨※"
+            android:textColor="@color/Warning"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimary1"
+            android:fontStyle="normal"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myUID"
+            android:text="UID : "
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
